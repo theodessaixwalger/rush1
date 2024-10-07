@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    line-height: 1;
+    background-image: url(image/grille.png);
+    font-family: "droid sans", serif;
+}
+
+#container {
+    color: grey;
+    width: 940px;
+    min-height: 180px;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#list .hotels .lists + li, #list .restaurants .lists + li, #list .services .lists + li, #list .activites .lists + li, #list .plus .lists + li {
+    padding-top: 10px;
+}
+
+#list {
+    float: right;
+    margin-top: -100px;
+}
+
+#list div {
+    float: left;
+    padding-left: 10px;
+}
+#list .lists {
+    border-bottom: 5px solid;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#list .hotels li, #list .restaurants li, #list .services li, #list .activites li, #list .plus li {
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+#list .hotels .lists {
+    border-color: orange;
+    font-size: 16px;
+}
+
+#list .hotels li {
+    font-size: 13px;
+    list-style-type: none;
+}
+
+#list .restaurants .lists {
+    border-color: yellow;
+    font-size: 16px;
+}
+
+#list .restaurants li {
+    font-size: 13px;
+    list-style-type: none;
+}
+
+#list .services .lists {
+    border-color: green;
+    font-size: 16px;
+}
+
+#list .services li {
+    font-size: 13px;
+    list-style-type: none;
+}
+
+#list .activites .lists {
+    border-color: blue;
+    font-size: 16px;
+}
+
+#list .activites li {
+    font-size: 13px;
+    list-style-type: none;
+}
+
+#list .plus .lists {
+    border-color: purple;
+    font-size: 16px;
+}
+
+#list .plus li {
+    font-size: 13px;
+    list-style-type: none;
+}
+
+.imagegrille {
+    background-image: url(image/grille.png);
+    height: 100px;
+}
+
+.video {
+    margin-top: 20px;
+}
+
+object {
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+    height: 390px;
+}
+
+.test {
+    background-color: white;
+    width: 100%;
+    height: 10px;
+}
+
+.phrase {
+    background-image: url(image/grille.png);
+    min-height: 90px;
+    margin-bottom: 40px;
+    border: 1px solid #c8c8c8;
+}
+
+.phrase p {
+    text-align: center;
+    padding: 35px;
+    font-size: 16px;
+    color: grey;
+    font-family: "droid serif", serif;
+    font-style: italic;
+}
+
+.golf, .accro img {
+    border: 1px solid #c8c8c8;
+}
+
+#split {
+    width: 940px;
+    margin: auto;
+}
+
+#bloc h3 {
+    font-size: 1.5em;
+    color: #f76900;
+}
+
+#bloc span {
+    font-size: .6em;
+    color: grey;
+    font-family: "droid serif", serif;
+}
+
+#bloc p {
+    color: grey;
+    font-size: .8em;
+    font-family: "droid sans", serif;
+}
+
+#bloc a {
+    color: grey;
+    font-size: .8em;
+}
+
+.golf {
+    width: 220px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.accrobranche {
+    float: right;
+    margin-top: -300px;
+    margin-right: 770px;
+}
+
+.fast-foods {
+    float: right;
+    margin-top: -140px;
+    margin-right: 790px;
+}
+
+.commentaires {
+    float: right;
+    margin-top: -300px;
+    margin-right: 250px;
+}
+
+.accro {
+    float: right;
+    margin-top: -180px;
+    margin-right: 170px;
+    width: 500px;
+}
+
+.accro img {
+    padding: 8px;
+    margin: 5px;
+}
+
+footer {
+    background-image: url(image/grille.png);
+    margin-top: 70px;
+    border-bottom: 10px;
+}
+
+#infos h3 {
+    font-size: 1.1em;
+    color: #969696;
+    padding-bottom: 15px;
+    font-family: "oswald", serif;
+}
+
+#infos li {
+    font-size: .9em;
+    font-family: "droid sans", serif;
+    color: #c8c8c8;
+    list-style-type: none;
+}
+
+.contact {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.lastbillet {
+    float: left;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.lastcommentaire {
+    float: left;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.blablaland {
+    float: left;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.reseau {
+    margin-top: 230px;
+    font-size: .8em;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.imagereseau {
+    float: right;
+}
